@@ -38,7 +38,7 @@ function Projects() {
               <ProjectCard
                 title={project.title}
                 description={project.description}
-                ghLink={"#"} // Replace with your actual GitHub link if available
+                ghLink={"https://amflow-frontend.netlify.app/"} // Replace with your actual GitHub link if available
                 imgPath={project.imgPath}
               />
             </Col>
