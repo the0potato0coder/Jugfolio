@@ -5,20 +5,31 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import codeEditor from "../../assets/Projects/codeEditor.png";
 import leaf from "../../assets/Projects/leaf.png";
+import blog from "../../assets/Projects/blog.png";
 
 function Projects() {
   const projects = [
     {
       id: 1,
       title: "AmFlow – Attendance Management System | Java Spring Boot, React, MySQL, JWT",
-      description: "Developed a full-stack web application to streamline employee attendance, leave, and payroll management. Engineered and secured RESTful APIs using Spring Boot with JWT-based authentication and role-based access control (Admin, User) to ensure data integrity. Conducted comprehensive unit testing using JUnit and Mockito to ensure code quality, achieving high test coverage for the service layer. Designed and implemented a relational database schema in MySQL and utilized Hibernate for object-relational mapping. Created a responsive, user-friendly frontend with React.js, consuming the backend APIs to provide a seamless user experience.",
-      imgPath: codeEditor
+      description: "Full-stack attendance management system using Java Spring Boot, React, MySQL, and JWT for employee tracking and payroll.",
+      imgPath: codeEditor,
+      ghLink: "#", // Placeholder for GitHub link
+      demoLink: "https://amflow-frontend.netlify.app/"
     },
     {
       id: 2,
       title: "CoreOS – Gym Management System | Java Spring Boot, Hibernate, MySQL",
-      description: "Built a robust backend system to manage gym memberships, class schedules, and user bookings. Implemented core features including user registration with password encryption, JWT-based authentication, and role-based access for members and trainers. Developed a booking module with validation checks for active memberships and class capacity, preventing scheduling conflicts. Created comprehensive RESTful APIs and implemented custom exception handling for robust and reliable operation.",
-      imgPath: leaf
+      description: "Gym management system backend using Java Spring Boot, Hibernate, and MySQL for memberships and bookings.",
+      imgPath: leaf,
+      ghLink: "#" // Placeholder for GitHub link
+    },
+    {
+      id: 3,
+      title: "Books API",
+      description: "A lightweight Spring Boot application (Java 21) that exposes a Books REST API and Thymeleaf web UI for searching a book catalog.",
+      imgPath: blog,
+      ghLink: "#" // Placeholder for GitHub link
     }
   ];
 
@@ -38,7 +49,8 @@ function Projects() {
               <ProjectCard
                 title={project.title}
                 description={project.description}
-                ghLink={"https://amflow-frontend.netlify.app/"} // Replace with your actual GitHub link if available
+                ghLink={project.ghLink}
+                demoLink={project.demoLink}
                 imgPath={project.imgPath}
               />
             </Col>
