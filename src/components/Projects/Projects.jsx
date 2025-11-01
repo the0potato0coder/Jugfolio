@@ -13,7 +13,7 @@ function Projects() {
       title: "AmFlow – Attendance Management System | Java Spring Boot, React, MySQL, JWT",
       description: "Full-stack attendance management system using Java Spring Boot, React, MySQL, and JWT for employee tracking and payroll.",
       imgPath: codeEditor,
-      ghLink: "#",
+      ghLink: "https://github.com/the0potato0coder/AmFlow-backend",
       demoLink: "https://amflow-frontend.netlify.app/"
     },
     {
@@ -21,14 +21,14 @@ function Projects() {
       title: "CoreOS – Gym Management System | Java Spring Boot, Hibernate, MySQL",
       description: "Gym management system backend using Java Spring Boot, Hibernate, and MySQL for memberships and bookings.",
       imgPath: leaf,
-      ghLink: "#"
+      ghLink: "https://github.com/the0potato0coder/CoreOS-backend"
     },
     {
       id: 3,
       title: "Books API",
       description: "A lightweight Spring Boot application (Java 21) that exposes a Books REST API and Thymeleaf web UI for searching a book catalog.",
       imgPath: blog,
-      ghLink: "#"
+      ghLink: "https://github.com/the0potato0coder/booksapi"
     }
   ];
 
