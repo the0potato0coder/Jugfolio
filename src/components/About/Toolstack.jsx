@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-// THE FIX IS HERE: We import from the specific icon set path.
 import { SiVsco, SiPostman, SiMysql, SiGit } from "react-icons/si";
 import { DiLinux } from "react-icons/di";
 

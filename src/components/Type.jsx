@@ -1,4 +1,3 @@
-// src/components/Home/Type.js
 import React from "react";
 import Typewriter from "typewriter-effect";
 

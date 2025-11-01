@@ -1,4 +1,3 @@
-// src/components/Projects/Projects.js
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
@@ -14,7 +13,7 @@ function Projects() {
       title: "AmFlow – Attendance Management System | Java Spring Boot, React, MySQL, JWT",
       description: "Full-stack attendance management system using Java Spring Boot, React, MySQL, and JWT for employee tracking and payroll.",
       imgPath: codeEditor,
-      ghLink: "#", // Placeholder for GitHub link
+      ghLink: "#",
       demoLink: "https://amflow-frontend.netlify.app/"
     },
     {
@@ -22,14 +21,14 @@ function Projects() {
       title: "CoreOS – Gym Management System | Java Spring Boot, Hibernate, MySQL",
       description: "Gym management system backend using Java Spring Boot, Hibernate, and MySQL for memberships and bookings.",
       imgPath: leaf,
-      ghLink: "#" // Placeholder for GitHub link
+      ghLink: "#"
     },
     {
       id: 3,
       title: "Books API",
       description: "A lightweight Spring Boot application (Java 21) that exposes a Books REST API and Thymeleaf web UI for searching a book catalog.",
       imgPath: blog,
-      ghLink: "#" // Placeholder for GitHub link
+      ghLink: "#"
     }
   ];
 

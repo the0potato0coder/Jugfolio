@@ -1,4 +1,3 @@
-// src/components/EducationSection.jsx
 import React from 'react';
 
 const EducationSection = () => {

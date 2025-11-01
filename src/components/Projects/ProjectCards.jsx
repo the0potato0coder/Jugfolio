@@ -17,7 +17,6 @@ function ProjectCards(props) {
           <BsGithub /> &nbsp;
           GitHub
         </Button>
-        {/* If the component contains Demo link, it will render the below component */}
         {props.demoLink && (
           <Button
             variant="primary"
